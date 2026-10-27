@@ -101,5 +101,6 @@ export const featuredPeople: FeaturedPerson[] = [
   { name: "Clara Brooks", slug: "clara-brooks", title: "" },
   { name: "Julie Godwin", slug: "julie-godwin", title: "" },
   { name: "Roeshana Moore-Evans", slug: "roeshana-moore-evans", title: "Equity Empowerment Consulting", photo: "/images/speakers/roeshana-moore-evans.jpg" },
-  { name: "Dr. Janet Moses", slug: "janet-moses", title: "" },
+  { name: "Dr. Janet Moses", slug: "janet-moses-wide", title: "Conference Organizer" },
+  { name: "Rosalyn D. Elder", slug: "rosalyn-elder", title: "Artist" },
 ];

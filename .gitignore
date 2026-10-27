@@ -47,3 +47,13 @@ next-env.d.ts
 /public/images/2024*/
 /public/images/2025BU/
 /public/images/2026EJI/
+
+# Large original headshots: keep locally; only the small copies in public/media/people/ are published.
+/public/images/speakers/Brandon Terry.jpg
+/public/images/speakers/Chris Izor headshot - RJ Blackburn panel.JPG
+/public/images/speakers/Clara Brooks Headshot.JPEG
+/public/images/speakers/JanetMosesNew.jpg
+/public/images/speakers/Julie Godwin Headshot.png
+/public/images/speakers/Reuben Miller.jpg
+/public/images/speakers/RosalynElder.webp
+/public/images/speakers/Desmond.jpg

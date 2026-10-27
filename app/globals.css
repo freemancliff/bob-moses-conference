@@ -699,3 +699,10 @@ p, li, blockquote, dd, .lead, .person-bio, .card-text, .timeline .what, .muted, 
   .search-row svg { width:20px; height:20px; color:var(--gold); }
   .search-row:hover { color:var(--white); }
 }
+
+/* Speaker grid: a little more air between the photo, name, title, Book link and rows */
+.people-grid { gap:56px 28px; }
+.avatar { margin-bottom:18px; }
+.person-name { margin-bottom:9px; }
+.person-role { line-height:1.5; }
+.person-books { margin-top:12px; }
