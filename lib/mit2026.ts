@@ -2,6 +2,8 @@
 export const mit2026 = {
   dateLine: "Saturday, November 21, 2026",
   hours: "9:00 am – 4:30 pm",
+  checkIn: "Check-in and continental breakfast from 8:30 am",
+  flyerUrl: "/downloads/Bob-Moses-Legacy-Conference-Part-II-Flyer.pdf",
   venue: "Wong Auditorium",
   building: "Jack C. Tang Center for Management Education (Building E51)",
   institution: "Massachusetts Institute of Technology",
@@ -41,15 +43,15 @@ export type ProgramItem = {
 
 // Matches the Part II agenda. "macarthur" rows get the purple featured underlay.
 export const program: ProgramItem[] = [
+  { time: "8:30 am", title: "Check-in & Continental Breakfast", detail: "Check-in managed by YPP Math Literacy Workers", kind: "break" },
   { time: "9:00 – 9:15 am", title: "Welcome", detail: "Rev. Rahsaan Hall" },
   { time: "9:15 – 9:45 am", title: "Keynote", detail: "Prof. Brandon Terry", kind: "feature" },
   { time: "9:45 – 10:00 am", title: "Break", kind: "break" },
-  { time: "10:00 am – 12:00 pm", title: "The Alabama Solution screening", kind: "feature" },
-  { time: "12:00 – 12:15 pm", title: "Musical Interlude" },
-  { time: "12:15 – 12:45 pm", title: "Lunch & Reflection" },
-  { time: "12:45 – 1:30 pm", title: "Fireside Chat", detail: "Clara Brooks and Julie Godwin, moderated by Roeshana Moore-Evans", kind: "feature" },
-  { time: "1:30 – 1:45 pm", title: "Break", kind: "break" },
-  { time: "1:45 – 2:45 pm", title: "MacArthur Conversation", detail: "Desmond Meade and Reuben Miller, moderated by Rev. Rahsaan Hall", note: "A short MacArthur film plays right before the conversation.", kind: "macarthur" },
+  { time: "10:00 – 10:05 am", title: "Welcome and Acknowledgement of the 45th Anniversary of MacArthur", kind: "macarthur" },
+  { time: "10:05 – 11:15 am", title: "MacArthur Conversation", detail: "Mass Incarceration and Rise of the Carceral State. Desmond Meade and Reuben Miller, moderated by Rev. Rahsaan Hall", note: "A short MacArthur film plays right before the conversation.", kind: "macarthur" },
+  { time: "11:15 am – 12:00 pm", title: "Lunch & Reflection" },
+  { time: "12:00 – 2:00 pm", title: "The Alabama Solution screening", kind: "feature" },
+  { time: "2:00 – 2:45 pm", title: "Fireside Chat", detail: "Clara Brooks and Susanne Cordner, moderated by Roeshana Moore-Evans", kind: "feature" },
   { time: "2:45 – 3:00 pm", title: "Transition to Groups", kind: "break" },
   { time: "3:00 – 4:00 pm", title: "Breakout Groups", detail: "Learn, listen, and strategize in five working sessions" },
   { time: "4:00 – 4:15 pm", title: "Transition", kind: "break" },
@@ -74,19 +76,19 @@ export const highlights = [
   },
   {
     kicker: "10:00 am",
+    title: "MacArthur Conversation",
+    text: "Desmond Meade (MacArthur Fellow 2021) and Reuben Jonathan Miller (MacArthur Fellow 2022) in conversation on mass incarceration and the rise of the carceral state, moderated by Rev. Rahsaan Hall, CEO of the Urban League of Eastern Massachusetts. A short MacArthur film plays right before.",
+    accent: "macarthur" as const,
+  },
+  {
+    kicker: "12:00 pm",
     title: "The Alabama Solution",
     text: "The 2026 Oscar-nominated documentary of unspeakable prison conditions in an Alabama state prison, revealed by incarcerated people at the risk of their lives.",
   },
   {
-    kicker: "12:45 pm",
+    kicker: "2:00 pm",
     title: "Fireside Chat",
-    text: "A conversation with Clara Brooks and Julie Godwin, family members of the incarcerated documentarians, moderated by Roeshana Moore-Evans.",
-  },
-  {
-    kicker: "1:45 pm",
-    title: "MacArthur Conversation",
-    text: "Desmond Meade (MacArthur Fellow 2021) and Reuben Jonathan Miller (MacArthur Fellow 2022) in conversation, moderated by Rev. Rahsaan Hall, CEO of the Urban League of Eastern Massachusetts. A short MacArthur film plays right before.",
-    accent: "macarthur" as const,
+    text: "A conversation with Clara Brooks, family member of an incarcerated documentarian, and Susanne Cordner, attorney, moderated by Roeshana Moore-Evans.",
   },
 ];
 
@@ -99,7 +101,7 @@ export const featuredPeople: FeaturedPerson[] = [
   { name: "Reuben Jonathan Miller", slug: "reuben-jonathan-miller", title: "MacArthur Fellow 2022 · Author of Halfway Home" },
   { name: "Rev. Rahsaan Hall", slug: "rahsaan-hall", title: "CEO, Urban League of Eastern Massachusetts", photo: "/images/speakers/rahsaan-hall.jpg" },
   { name: "Clara Brooks", slug: "clara-brooks", title: "" },
-  { name: "Julie Godwin", slug: "julie-godwin", title: "" },
+  { name: "Susanne Cordner", slug: "susanne-cordner", title: "Attorney" },
   { name: "Roeshana Moore-Evans", slug: "roeshana-moore-evans", title: "Equity Empowerment Consulting", photo: "/images/speakers/roeshana-moore-evans.jpg" },
   { name: "Dr. Janet Moses", slug: "janet-moses-wide", title: "Conference Organizer" },
   { name: "Rosalyn D. Elder", slug: "rosalyn-elder", title: "Artist" },

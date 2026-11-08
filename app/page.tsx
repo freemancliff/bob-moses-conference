@@ -214,18 +214,18 @@ export default function HomePage() {
                 <strong>Keynote</strong> from Prof. Brandon Terry
               </li>
               <li>
+                <strong>MacArthur Conversation</strong> with Desmond Meade and
+                Reuben Jonathan Miller, moderated by Rev. Rahsaan Hall
+              </li>
+              <li>
                 Screening of{" "}
                 <strong>
                   <em>The Alabama Solution</em>
                 </strong>
               </li>
               <li>
-                <strong>Fireside chat</strong> with Clara Brooks and Julie
-                Godwin, family members of the incarcerated documentarians
-              </li>
-              <li>
-                <strong>MacArthur Conversation</strong> with Desmond Meade and
-                Reuben Jonathan Miller, moderated by Rev. Rahsaan Hall
+                <strong>Fireside chat</strong> with Clara Brooks and Susanne
+                Cordner, moderated by Roeshana Moore-Evans
               </li>
               <li>
                 <strong>Five breakout groups</strong> to learn, listen, and

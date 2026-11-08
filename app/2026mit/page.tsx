@@ -100,6 +100,7 @@ export default function Mit2026Page() {
             <div className="infobar-item">
               <span>Time</span>
               <strong>{mit2026.hours}</strong>
+              <span style={{ display: "block", marginTop: 4, fontSize: ".82rem", opacity: 0.8 }}>{mit2026.checkIn}</span>
             </div>
             <div className="infobar-item">
               <span>Place</span>
@@ -125,8 +126,8 @@ export default function Mit2026Page() {
             <p className="lead">
               {mit2026.partLabel} of the 2026 Bob Moses Legacy Conference
               celebrates the 45th anniversary of the MacArthur Fellows Program.
-              One day at MIT brings together a keynote, a documentary screening,
-              a fireside chat, a conversation between two MacArthur Fellows, and
+              One day at MIT brings together a keynote, a conversation between two
+              MacArthur Fellows, a documentary screening, a fireside chat, and
               working sessions on the carceral state, with food, music, art, and
               camaraderie.
             </p>
@@ -162,7 +163,7 @@ export default function Mit2026Page() {
               <div className="eyebrow">Then · 3:00 – 4:00 pm</div>
               <h3>Breakout Groups</h3>
               <p className="lead">
-                After the MacArthur Conversation, break out to learn, listen, and
+                After the Fireside Chat, break out to learn, listen, and
                 strategize in five working sessions.
               </p>
             </div>
@@ -212,6 +213,9 @@ export default function Mit2026Page() {
           </ol>
           <div className="center-row">
             <MitRegisterButton />
+            <a className="btn btn--ghost" href={mit2026.flyerUrl} download>
+              Download the Flyer
+            </a>
           </div>
         </div>
       </section>
@@ -317,6 +321,9 @@ export default function Mit2026Page() {
               rel="noreferrer"
             >
               Count Me In — Donate
+            </a>
+            <a className="btn btn--ghost" href={mit2026.flyerUrl} download>
+              Download the Flyer
             </a>
           </div>
         </div>
