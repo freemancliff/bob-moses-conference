@@ -47,7 +47,7 @@ export const program: ProgramItem[] = [
   { time: "9:00 – 9:15 am", title: "Welcome", detail: "Rev. Rahsaan Hall" },
   { time: "9:15 – 9:45 am", title: "Keynote", detail: "Prof. Brandon Terry", kind: "feature" },
   { time: "9:45 – 10:00 am", title: "Break", kind: "break" },
-  { time: "10:00 – 10:05 am", title: "Welcome and Acknowledgement of the 45th Anniversary of MacArthur", kind: "macarthur" },
+  { time: "10:00 – 10:05 am", title: "Welcome and Acknowledgement of the 45th Anniversary of MacArthur", detail: "Welcome to MIT and opening of the MacArthur section, Melissa Nobles, Chancellor of MIT", kind: "macarthur" },
   { time: "10:05 – 11:15 am", title: "MacArthur Conversation", detail: "Mass Incarceration and Rise of the Carceral State. Desmond Meade and Reuben Miller, moderated by Rev. Rahsaan Hall", note: "A short MacArthur film plays right before the conversation.", kind: "macarthur" },
   { time: "11:15 am – 12:00 pm", title: "Lunch & Reflection" },
   { time: "12:00 – 2:00 pm", title: "The Alabama Solution screening", kind: "feature" },

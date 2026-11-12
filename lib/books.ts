@@ -57,6 +57,7 @@ const books: Book[] = [
   { slug: "reckoning-with-our-roots", title: "Reckoning with Our Roots", subtitle: "Unearthing Injustice to Find Our Way Home", author: "Joan T. Wynne", category: "History & Reconstruction", years: [2023], asin: "1524977756" },
 
   // ── Race, Law & Voting ──
+  { slug: "americas-disenfranchised", title: "America's Disenfranchised", author: "Desmond Meade", category: "Race, Law & Voting", years: [], url: "https://cornellpress.cornell.edu/book/9781501763748/americas-disenfranchised/" },
   { slug: "shattered-dreams-infinite-hope", title: "Shattered Dreams, Infinite Hope", subtitle: "A Tragic Vision of the Civil Rights Movement", author: "Brandon M. Terry", category: "Race, Law & Voting", years: [], asin: "0674271289" },
   { slug: "imagination-a-manifesto", title: "Imagination", subtitle: "A Manifesto", author: "Ruha Benjamin", category: "Race, Law & Voting", years: [], asin: "B0C97HJHWG" },
   { slug: "viral-justice", title: "Viral Justice", subtitle: "How We Grow the World We Want", author: "Ruha Benjamin", category: "Race, Law & Voting", years: [], asin: "0691224935" },
